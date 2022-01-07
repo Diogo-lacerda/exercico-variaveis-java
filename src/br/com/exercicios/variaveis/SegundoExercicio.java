@@ -1,6 +1,6 @@
 package br.com.exercicios.variaveis;
 
-public class TiposVariaveis {
+public class SegundoExercicio {
 
     public static void main(String[] args) {
         byte b1 = 10;

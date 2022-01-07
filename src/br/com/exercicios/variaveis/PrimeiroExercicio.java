@@ -1,6 +1,6 @@
 package br.com.exercicios.variaveis;
 
-public class Main {
+public class PrimeiroExercicio {
 
     public static void main(String[] args) {
 
