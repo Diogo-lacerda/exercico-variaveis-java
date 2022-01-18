@@ -1,6 +1,6 @@
 package br.com.exercicios.orientacaoobjeto;
 
-public class Carro {
+public class Carro extends VeiculosHeranca {
 
     String cor;                     // Atributos criados para a classe Carro
     String modelo;                  // Lembrando sempre que tipo de dado que esta sendo usado
