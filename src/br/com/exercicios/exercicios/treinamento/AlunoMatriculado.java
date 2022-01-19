@@ -10,7 +10,43 @@ trabalho. Escreva os seguintes métodos para esta classe:
 media calcula a média final do aluno (cada prova tem peso 2,5 e o trabalho tem peso 2)
 final calcula quanto o aluno precisa para a prova final, (retorna zero se ele não for para a final)
  */
-public class AlunosMatriculados {
+public class AlunoMatriculado {
+    String nome;
+    String matricula;
+    String idade;
+    double prova1;
+    double prova2;
+    double trabalho;
+
+    public double media (){
+        return (prova1 + prova2 + trabalho) /3;
+    }
+    public double notaFinal (){
+      double media = media();
+        if (media >= 7){
+            return 0;
+        }
+        else {
+            return 7 - media;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
