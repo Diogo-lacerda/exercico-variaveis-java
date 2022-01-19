@@ -1,4 +1,4 @@
-package br.com.exercicios.Listas;
+package br.com.exercicios.listas;
 /*
 Crie um vetor de 6 números inteiros
 e mostre-os na ordem inversa.

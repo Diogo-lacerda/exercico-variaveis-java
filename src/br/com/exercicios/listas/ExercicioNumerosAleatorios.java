@@ -1,4 +1,4 @@
-package br.com.exercicios.Listas;
+package br.com.exercicios.listas;
 
 import java.util.Random;
 
