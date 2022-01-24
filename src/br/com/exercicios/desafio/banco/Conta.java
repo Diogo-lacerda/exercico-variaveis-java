@@ -42,10 +42,11 @@ public class Conta {
         }
     }
 
-    private void receberTransferencia(double valor) {
+    protected void receberTransferencia(double valor) {
         //fazer validação
         this.saldo += valor;
     }
+
 
     @Override
     public String toString() {
